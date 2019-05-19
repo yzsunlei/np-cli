@@ -1,5 +1,5 @@
 {
-  "name": "np-cli",
+  "name": "np-cli-happy",
   "version": "1.0.0",
   "description": "a awesome project generator",
   "main": "index.js",
@@ -11,14 +11,14 @@
   "scripts": {
     "np": "./node_modules/.bin/babel-node src/np",
     "compile": "./node_modules/.bin/babel src -d dist",
-    "watch": "npm run compile -- -watch",
+    "watch": "npm run compile -- -watch"
   },
   "engines": {
     "node": ">=6.0.0"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/yzsunlei/np-cli.git"
+    "url": "git+https://github.com/yzsunlei/np-cli-happy.git"
   },
   "keywords": [
     "generator",
@@ -26,13 +26,13 @@
     "nodejs"
   ],
   "bugs": {
-    "url": "https://github.com/yzsunlei/np-cli/issues"
+    "url": "https://github.com/yzsunlei/np-cli-happy/issues"
   },
-  "homepage": "https://github.com/yzsunlei/np-cli#readme",
+  "homepage": "https://github.com/yzsunlei/np-cli-happy#readme",
   "devDependencies": {
     "babel-cli": "^6.26.0",
     "babel-eslint": "^8.2.1",
-    "babel-preset-env": "^1.6.1",
+    "babel-preset-env": "^1.6.1"
   },
   "dependencies": {
     "commander": "^2.13.0",
